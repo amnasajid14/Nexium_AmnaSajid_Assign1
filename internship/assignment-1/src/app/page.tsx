@@ -21,14 +21,15 @@ export default function Home() {
   return (
     <main>
       <div
-  className="hero min-h-screen"
+  className="hero w-full min-h-screen bg-cover bg-center bg-no-repeat"
   style={{
     backgroundImage:
       "url('/images/hd-mountain.jpg')",
+  backgroundColor: "#000", // fallback
+
   }}
 >
-  <div className="hero"></div> 
-  <div className="hero-content text-neutral-content text-center">
+  <div className="hero-content flex flex-col items-center justify-center text-center px-4 sm:px-8">
     <div className="container mx-auto max-w-2xl mt-10">
       <h1 className="text-4xl font-extrabold text-white mb-6 text-center tracking-wider [text-shadow:_0_0_8px_rgba(255,255,255,0.6)]">
   Quote Generator
