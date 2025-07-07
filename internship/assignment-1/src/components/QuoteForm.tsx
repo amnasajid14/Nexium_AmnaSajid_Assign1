@@ -17,7 +17,7 @@ export default function QuoteForm({ onSubmit }: { onSubmit: (topic: string) => v
       <div className="mb-4">
         <h2 className="text-xl font-semibold text-white">Try these topics:</h2>
         <div className="flex justify-center gap-2 mt-2 flex-wrap">
-  {['happiness', 'wisdom', 'courage'].map((topicName) => (
+  {['Inspirational', 'Science', 'Peace'].map((topicName) => (
     <span
       key={topicName}
       className="badge bg-white/10 text-white rounded-full px-4 py-2 border border-white cursor-pointer"
@@ -33,7 +33,7 @@ export default function QuoteForm({ onSubmit }: { onSubmit: (topic: string) => v
     <div className="flex flex-col sm:flex-row items-center justify-center gap-4 w-full">
   <Input
     type="text"
-    placeholder="Enter a topic (e.g., Happiness, Wisdom, Courage)"
+    placeholder="Enter a topic (e.g., Inspirational, Science, Peace)"
     value={topic}
     onChange={(e) => setTopic(e.target.value)}
     className="w-full sm:max-w-md bg-white/90 text-black placeholder-gray-500 rounded-md shadow"

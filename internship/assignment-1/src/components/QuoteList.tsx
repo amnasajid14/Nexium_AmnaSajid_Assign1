@@ -1,28 +1,36 @@
 import { FaQuoteLeft } from 'react-icons/fa';
 
-export default function QuoteList({ quotes }: { quotes: string[] }) {
+export default function QuoteList({
+  quotes,
+}: {
+  quotes: { quote: string; author: string }[];
+}) {
   const getHighlightColor = (quote: string) => {
-    if (quote.toLowerCase().includes("happiness"))return "text-black";
+    if (quote.toLowerCase().includes("happiness")) return "text-black";
     if (quote.toLowerCase().includes("wisdom")) return "text-black";
     if (quote.toLowerCase().includes("courage")) return "text-black";
     return "text-black";
-  };
+  }; 
 
   return (
-    <div className="grid gap-6 mt-6">
-      {quotes.map((quote, index) => (
-        <div
-          key={index}
-          className="bg-gray-200 rounded-xl shadow-lg p-6 border-2 border-gray-400 hover:border-indigo-500 hover:scale-[1.02] hover:shadow-xl transition-transform duration-300"
-        >
-          <div className="flex items-start gap-4">
-            <FaQuoteLeft className="text-black text-2xl mt-1 opacity-60" />
-            <p className={`text-lg font-medium leading-relaxed ${getHighlightColor(quote)}`}>
-              {quote}
-            </p>
-          </div>
+    <div className="grid gap-4">
+  {quotes.map((quoteObj, index) => (
+    <div
+      key={index}
+      className="bg-white/90 rounded-md shadow p-4 text-black text-sm"
+    >
+      <div className="flex gap-3 items-start">
+        <FaQuoteLeft className="text-gray-500 mt-1" />
+        <div>
+          <p className={`leading-snug ${getHighlightColor(quoteObj.quote)}`}>
+  {quoteObj.quote}
+</p>
+          <p className="mt-2 text-right italic text-gray-600 text-xs">— {quoteObj.author}</p>
         </div>
-      ))}
+      </div>
     </div>
+  ))}
+</div>
+
   );
 }

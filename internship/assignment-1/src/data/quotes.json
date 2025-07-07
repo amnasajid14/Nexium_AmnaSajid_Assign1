@@ -1,13 +1,47 @@
 [
-  { "topic": "happiness", "quote": "Happiness is not something ready made. It comes from your own actions." },
-  { "topic": "happiness", "quote": "The purpose of our lives is to be happy." },
-  { "topic": "happiness", "quote": "Happiness depends upon ourselves." },
-
-  { "topic": "wisdom", "quote": "Knowing yourself is the beginning of all wisdom." },
-  { "topic": "wisdom", "quote": "Wisdom is the reward you get for a lifetime of listening." },
-  { "topic": "wisdom", "quote": "Wisdom begins in wonder." },
-
-  { "topic": "courage", "quote": "Courage is resistance to fear, mastery of fear not absence of fear." },
-  { "topic": "courage", "quote": "Have the courage to follow your heart and intuition." },
-  { "topic": "courage", "quote": "Success is not final, failure is not fatal: it is the courage to continue that counts." }
+  {
+    "topic": "Science",
+    "quote": "Our scientific power has outrun our spiritual power. We have guided missiles and misguided men.",
+    "author": "Martin Luther King, Jr."
+  },
+    {
+    "topic": "Science",
+    "quote": "No amount of experimentation can ever prove me right; a single experiment can prove me wrong.",
+    "author": "Albert Einstein"
+  },
+    {
+    "topic": "Science",
+    "quote": "If an elderly but distinguished scientist says that something is possible, he is almost certainly right; but if he says that it is impossible, he is very probably wrong.",
+    "author": "Arthur C. Clarke"
+  },
+  {
+    "topic": "Inspirational",
+    "quote": "The best preparation for tomorrow is doing your best today.",
+    "author": "H. Jackson Brown, Jr."
+  },
+  {
+    "topic": "Inspirational",
+    "quote": "There are two ways of spreading light: to be the candle or the mirror that reflects it.",
+    "author": "Edith Wharton"
+  },
+   {
+    "topic": "Inspirational",
+    "quote": "Happiness is not something you postpone for the future; it is something you design for the present.",
+    "author": "Jim Rohn"
+  },
+  {
+    "topic": "Peace",
+    "quote": "Peace is not absence of conflict, it is the ability to handle conflict by peaceful means.",
+    "author": "Ronald Reagan"
+  },
+  {
+    "topic": "Peace",
+    "quote": "Imagine all the people living life in peace. You may say I'm a dreamer, but I'm not the only one. I hope someday you'll join us, and the world will be as one.",
+    "author": "John Lennon"
+  },
+  {
+    "topic": "Peace",
+    "quote": "Peace is a journey of a thousand miles and it must be taken one step at a time.",
+    "author": "Lyndon B. Johnson"
+  }
 ]

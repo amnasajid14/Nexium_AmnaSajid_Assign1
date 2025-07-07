@@ -10,7 +10,7 @@ Users can enter a topic and get 3 related quotes from a local JSON file. The app
 
 - 🧠 **ShadCN UI** Input and Button components
 - 🎨 Styling with **Tailwind CSS** and **daisyUI**
-- 🔍 Enter a topic (e.g. `motivation`, `life`, `success`)
+- 🔍 Enter a topic (e.g. `Inspirational`, `Science`, `Peace`)
 - 💬 Displays 3 quotes from a local `quotes.json` file
 - 🖼️ Custom background and animated quote cards
 - 🚀 Deployed on Vercel
@@ -48,8 +48,7 @@ Users can enter a topic and get 3 related quotes from a local JSON file. The app
     
 🌐 Live Demo
 🔗 Deployed on Vercel:
-(Add your Vercel URL here after deployment)
-Example: https://nexium-assign1.vercel.app
+https://nexium-amna-sajid-assign1-orl1.vercel.app/
 
 📌 Assignment Requirement Checklist
 
@@ -62,4 +61,3 @@ Example: https://nexium-assign1.vercel.app
 
 👩‍💻 Author
 Amna Sajid
-Frontend Assignment 1 — Nexium Internship
