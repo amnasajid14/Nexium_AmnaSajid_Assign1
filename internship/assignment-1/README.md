@@ -1,36 +1,65 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📚 Quote Generator Web App
 
-## Getting Started
+This is **Assignment 1** for Nexium. It is a simple and modern Quote Generator built using **Next.js**, **Tailwind CSS**, **ShadCN UI**, and **daisyUI**.
 
-First, run the development server:
+Users can enter a topic and get 3 related quotes from a local JSON file. The app is fully responsive, styled with a custom background, and deployed to **Vercel**.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ✨ Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- 🧠 **ShadCN UI** Input and Button components
+- 🎨 Styling with **Tailwind CSS** and **daisyUI**
+- 🔍 Enter a topic (e.g. `motivation`, `life`, `success`)
+- 💬 Displays 3 quotes from a local `quotes.json` file
+- 🖼️ Custom background and animated quote cards
+- 🚀 Deployed on Vercel
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🛠️ Technologies Used
 
-To learn more about Next.js, take a look at the following resources:
+- [Next.js](https://nextjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [ShadCN UI](https://ui.shadcn.com/)
+- [daisyUI](https://daisyui.com/)
+- [Vercel](https://vercel.com/)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🚀 Running Locally
 
-## Deploy on Vercel
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/amnasajid14/Nexium_AmnaSajid_Assign1.git
+   cd Nexium_AmnaSajid_Assign1
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+2. Install dependencies:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+    npm install
+
+3. Run the dev server:
+ 
+    npm run dev
+
+4. Open in browser:
+
+    http://localhost:3000
+    
+🌐 Live Demo
+🔗 Deployed on Vercel:
+(Add your Vercel URL here after deployment)
+Example: https://nexium-assign1.vercel.app
+
+📌 Assignment Requirement Checklist
+
+✅ ShadCN UI form to enter topic
+✅ Displays 3 quotes from quotes.json
+✅ Styled with Tailwind + daisyUI
+✅ Deployed on Vercel
+✅ Code structured in assignment-1/ folder
+
+
+👩‍💻 Author
+Amna Sajid
+Frontend Assignment 1 — Nexium Internship
