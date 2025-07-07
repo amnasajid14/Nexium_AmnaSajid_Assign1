@@ -1,10 +1,9 @@
-'use client'
+'use client';
 
 import { useState } from 'react';
 import QuoteForm from '../components/QuoteForm';
 import QuoteList from '../components/QuoteList';
 import quotesData from '../data/quotes.json';
-
 
 export default function Home() {
   const [quotes, setQuotes] = useState<string[]>([]);
@@ -19,28 +18,22 @@ export default function Home() {
   };
 
   return (
-    <main>
+    <main className="min-h-screen">
       <div
-  className="hero w-full min-h-screen bg-cover bg-center bg-no-repeat"
-  style={{
-    backgroundImage:
-      "url('/images/hd-mountain.jpg')",
-  backgroundColor: "#000", // fallback
-
-  }}
->
-  <div className="hero-content flex flex-col items-center justify-center text-center px-4 sm:px-8">
-    <div className="container mx-auto max-w-2xl mt-10">
-      <h1 className="text-4xl font-extrabold text-white mb-6 text-center tracking-wider [text-shadow:_0_0_8px_rgba(255,255,255,0.6)]">
-  Quote Generator
-</h1>
-      <QuoteForm onSubmit={handleGetQuotes} />
-      {quotes.length > 0 && <QuoteList quotes={quotes} />}
-    </div>
-  </div>
-</div>
-    
+        className="flex items-center justify-center min-h-screen w-full bg-cover bg-center bg-no-repeat px-4"
+        style={{
+           backgroundImage: "url('/images/green-mountain-image.jpg')",
+          backgroundColor: '#000',
+        }}
+      >
+        <div className="w-full max-w-2xl text-center text-white">
+          <h1 className="text-4xl font-extrabold mb-6 tracking-wide [text-shadow:_0_0_8px_rgba(255,255,255,0.6)]">
+            Quote Generator
+          </h1>
+          <QuoteForm onSubmit={handleGetQuotes} />
+          {quotes.length > 0 && <QuoteList quotes={quotes} />}
+        </div>
+      </div>
     </main>
   );
 }
-
