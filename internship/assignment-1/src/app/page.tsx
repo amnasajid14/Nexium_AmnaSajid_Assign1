@@ -19,7 +19,7 @@ export default function Home() {
 
   return (
     <main className="relative min-h-screen w-full overflow-hidden">
-  {/* Background image layer */}
+
   <div
     className="absolute inset-0 bg-cover bg-center bg-no-repeat"
     style={{
@@ -28,10 +28,10 @@ export default function Home() {
     }}
   />
 
-  {/* Optional dark overlay */}
+ 
   <div className="absolute inset-0 bg-black/40 z-10" />
 
-  {/* Content layer */}
+
   <div className="relative z-20 flex items-center justify-center min-h-screen px-4">
     <div className="text-center text-white w-full max-w-2xl">
       <h1 className="text-4xl font-extrabold mb-6 tracking-wide [text-shadow:_0_0_8px_rgba(255,255,255,0.6)]">

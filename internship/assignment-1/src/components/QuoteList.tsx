@@ -2,9 +2,9 @@ import { FaQuoteLeft } from 'react-icons/fa';
 
 export default function QuoteList({ quotes }: { quotes: string[] }) {
   const getHighlightColor = (quote: string) => {
-    if (quote.toLowerCase().includes("motivation"))return "text-black";
-    if (quote.toLowerCase().includes("life")) return "text-black";
-    if (quote.toLowerCase().includes("success")) return "text-black";
+    if (quote.toLowerCase().includes("happiness"))return "text-black";
+    if (quote.toLowerCase().includes("wisdom")) return "text-black";
+    if (quote.toLowerCase().includes("courage")) return "text-black";
     return "text-black";
   };
 
