@@ -18,22 +18,30 @@ export default function Home() {
   };
 
   return (
-    <main className="min-h-screen">
-      <div
-        className="flex items-center justify-center min-h-screen w-full bg-cover bg-center bg-no-repeat px-4"
-        style={{
-           backgroundImage: "url('/images/green-mountain-image.jpg')",
-          backgroundColor: '#000',
-        }}
-      >
-        <div className="w-full max-w-2xl text-center text-white">
-          <h1 className="text-4xl font-extrabold mb-6 tracking-wide [text-shadow:_0_0_8px_rgba(255,255,255,0.6)]">
-            Quote Generator
-          </h1>
-          <QuoteForm onSubmit={handleGetQuotes} />
-          {quotes.length > 0 && <QuoteList quotes={quotes} />}
-        </div>
-      </div>
-    </main>
+    <main className="relative min-h-screen w-full overflow-hidden">
+  {/* Background image layer */}
+  <div
+    className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+    style={{
+      backgroundImage: "url('/images/hd-mountain.jpg')",
+      backgroundColor: '#000',
+    }}
+  />
+
+  {/* Optional dark overlay */}
+  <div className="absolute inset-0 bg-black/40 z-10" />
+
+  {/* Content layer */}
+  <div className="relative z-20 flex items-center justify-center min-h-screen px-4">
+    <div className="text-center text-white w-full max-w-2xl">
+      <h1 className="text-4xl font-extrabold mb-6 tracking-wide [text-shadow:_0_0_8px_rgba(255,255,255,0.6)]">
+        Quote Generator
+      </h1>
+      <QuoteForm onSubmit={handleGetQuotes} />
+      {quotes.length > 0 && <QuoteList quotes={quotes} />}
+    </div>
+  </div>
+</main>
+
   );
 }

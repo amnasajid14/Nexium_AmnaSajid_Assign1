@@ -23,27 +23,26 @@ export default function QuoteForm({ onSubmit }: { onSubmit: (topic: string) => v
         </div>
       </div>
 
-    <div className="flex flex-col gap-4 w-full items-center">
+    <div className="flex flex-col sm:flex-row items-center justify-center gap-4 w-full">
   <Input
     type="text"
     placeholder="Enter a topic (e.g., motivation, life, success)"
     value={topic}
     onChange={(e) => setTopic(e.target.value)}
-    className="w-[500px] max-w-2xl bg-white/90 text-black placeholder-gray-500"
+    className="w-full sm:max-w-md bg-white/90 text-black placeholder-gray-500 rounded-md shadow"
   />
+  </div>
+   <div className="flex justify-center">
   <Button
     type="submit"
-    className="btn bg-white text-black hover:bg-gray-400 shadow-md rounded-lg px-6 py-2 transition w-fit"
+    className="btn bg-white text-black hover:bg-gray-400 shadow-md rounded-lg px-6 py-2 transition w-3/4 sm:w-1/2 md:w-1/3 lg:w-1/4"
   >
     Get Quotes
   </Button>
 </div>
 
-
     </form>
   );
 }
-
-
 
  
