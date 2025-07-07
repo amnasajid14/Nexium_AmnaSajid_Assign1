@@ -4,8 +4,6 @@ This is **Assignment 1** for Nexium. It is a simple and modern Quote Generator b
 
 Users can enter a topic and get 3 related quotes from a local JSON file. The app is fully responsive, styled with a custom background, and deployed to **Vercel**.
 
----
-
 ## ✨ Features
 
 - 🧠 **ShadCN UI** Input and Button components
@@ -15,8 +13,6 @@ Users can enter a topic and get 3 related quotes from a local JSON file. The app
 - 🖼️ Custom background and animated quote cards
 - 🚀 Deployed on Vercel
 
----
-
 ## 🛠️ Technologies Used
 
 - [Next.js](https://nextjs.org/)
@@ -24,8 +20,6 @@ Users can enter a topic and get 3 related quotes from a local JSON file. The app
 - [ShadCN UI](https://ui.shadcn.com/)
 - [daisyUI](https://daisyui.com/)
 - [Vercel](https://vercel.com/)
-
----
 
 ## 🚀 Running Locally
 
@@ -43,18 +37,9 @@ Users can enter a topic and get 3 related quotes from a local JSON file. The app
 4. Open in browser:
     http://localhost:3000
     
-🌐 Live Demo
+## 🌐 Live Demo
 🔗 Deployed on Vercel:
 https://nexium-amna-sajid-assign1-orl1.vercel.app/
 
-📌 Assignment Requirement Checklist
-
-✅ ShadCN UI form to enter topic
-✅ Displays 3 quotes from quotes.json
-✅ Styled with Tailwind + daisyUI
-✅ Deployed on Vercel
-✅ Code structured in assignment-1/ folder
-
-
-👩‍💻 Author
-Amna Sajid
+## 👩‍💻 Author
+  Amna Sajid
